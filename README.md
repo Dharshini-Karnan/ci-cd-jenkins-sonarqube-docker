@@ -84,15 +84,6 @@ The focus of this project is on **CI/CD automation and DevOps best practices**, 
 
 ---
 
-## 🚀 Deployment
-
-The Docker image is deployed using Docker and can be run locally or on an EC2 instance.
-
-```bash
-docker run -d -p 5000:5000 dharshinikarnan/ci-cd-python-app:latest
-
----
-
 🔗 Repository Links
 
 GitHub Repository:
@@ -118,5 +109,15 @@ Jenkins security was kept minimal for local development
 Ngrok was used to enable webhook communication with GitHub
 
 Quality Gate enforcement can be enabled or skipped as required
+
+---
+
+## 🚀 Deployment
+
+The Docker image is deployed using Docker and can be run locally or on an EC2 instance.
+
+```bash
+docker run -d -p 5000:5000 dharshinikarnan/ci-cd-python-app:latest
+
 
 
