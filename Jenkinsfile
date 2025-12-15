@@ -3,15 +3,9 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
-            steps {
-                checkout scm
-            }
-        }
-
         stage('Test') {
             steps {
-                powershell '''
+                bat '''
                 python -m tests.test_app
                 '''
             }
@@ -20,7 +14,7 @@ pipeline {
         stage('SonarQube Analysis') {
             steps {
                 withSonarQubeEnv('SonarQube') {
-                    powershell '''
+                    bat '''
                     sonar-scanner
                     '''
                 }
