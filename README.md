@@ -84,31 +84,30 @@ The focus of this project is on **CI/CD automation and DevOps best practices**, 
 
 ---
 
-🔗 Repository Links
+## 🔗 Repository Links
 
-GitHub Repository:
-https://github.com/Dharshini-Karnan/ci-cd-jenkins-sonarqube-docker
+- **GitHub Repository:**  
+  https://github.com/Dharshini-Karnan/ci-cd-jenkins-sonarqube-docker
 
-DockerHub Repository:
-https://hub.docker.com/r/dharshinikarnan/ci-cd-python-app
+- **DockerHub Repository:**  
+  https://hub.docker.com/r/dharshinikarnan/ci-cd-python-app
 
-🎯 Outcome
+---
 
-Fully automated CI/CD pipeline
+## 🎯 Outcome
 
-Real-time static code quality analysis
+- Fully automated CI/CD pipeline
+- Real-time static code quality analysis
+- Dockerized application delivery
+- Hands-on experience with industry-standard DevOps tools
 
-Dockerized application delivery
+---
 
-Hands-on experience with industry-standard DevOps tools
+## 📝 Notes
 
-📝 Notes
-
-Jenkins security was kept minimal for local development
-
-Ngrok was used to enable webhook communication with GitHub
-
-Quality Gate enforcement can be enabled or skipped as required
+- Jenkins security was kept minimal for local development
+- Ngrok was used to enable webhook communication with GitHub
+- Quality Gate enforcement can be enabled or skipped as required
 
 ---
 
