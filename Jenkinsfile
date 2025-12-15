@@ -6,7 +6,7 @@ pipeline {
         stage('Test') {
             steps {
                 bat '''
-                python -m tests.test_app
+                C:\\Users\\dhars\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m tests.test_app
                 '''
             }
         }
@@ -22,4 +22,3 @@ pipeline {
         }
     }
 }
-
